@@ -26,14 +26,22 @@ namespace UpNDown
 
             }else{
                 count--;
+                above20.Text = "";
                 label.Text = "" + count;
             }
         }
 
         void OnIncrement(object sender, EventArgs e){
-            count++;
-            label.Text = ""+count;
-            //countDisplayLabel += "{Binding Value, StringFormat='{count}'}";
+            if (count > 19)
+            {
+                above20.Text = "Can't go beyond 20..go Down";
+            }
+            else
+            {
+                count++;
+                label.Text = "" + count;
+                //countDisplayLabel += "{Binding Value, StringFormat='{count}'}";
+            }
 
         }
     }

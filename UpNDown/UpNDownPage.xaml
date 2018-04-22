@@ -30,6 +30,10 @@
                FontSize="Large" 
            VerticalOptions="CenterAndExpand" 
            HorizontalOptions="Center" />
+    <Label x:Name="above20" Text=""
+           TextColor="Blue"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"/>
 
       <Button x:Name="upButon" BindingContext="{x:Reference label}" Text=" + " 
               Clicked="OnIncrement" FontSize="Large" TextColor="White" BackgroundColor="Maroon"/>
