@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:UpNDown" 
+    x:Class="UpNDown.UpNDownPage"
+    BackgroundColor="Olive">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 160, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    
+    <StackLayout>
+
+        <Label Text="Go Up 'N' Down!" VerticalOptions="CenterAndExpand"
+               FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        
+    <Label Text="Tap (+) or (-) below.." 
+           FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+
+    
+        
+    <Label x:Name="label" Text="0"
+           TextColor="Yellow"
+            FontAttributes="Bold"
+               FontSize="Large" 
+           VerticalOptions="CenterAndExpand" 
+           HorizontalOptions="Center" />
+
+      <Button x:Name="upButon" BindingContext="{x:Reference label}" Text=" + " 
+              Clicked="OnIncrement" FontSize="Large" TextColor="White" BackgroundColor="Maroon"/>
+      <Button x:Name="downButton" BindingContext="{x:Reference label}" Text=" - " 
+              Clicked="OnDecrement" FontSize="Large" TextColor="White" BackgroundColor="Maroon"/>
+        
+    </StackLayout>    
+    
+</ContentPage>

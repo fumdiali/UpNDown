@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{087B1603-E437-45B1-AE0F-E161B52A7E63}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UpNDown/UpNDownPage.xaml">
+    <Files>
+      <File FileName="UpNDown/UpNDownPage.xaml" Line="3" Column="5" />
+      <File FileName="UpNDown/UpNDownPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UpNDown FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.UpNDown.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A4DEC215-2256-40E1-A24A-CC7B518CF222" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.UpNDown.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
