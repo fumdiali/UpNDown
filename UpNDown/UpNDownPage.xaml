@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:local="clr-namespace:UpNDown" 
     x:Class="UpNDown.UpNDownPage"
-    BackgroundColor="Olive">
+    BackgroundColor="Green">
 
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
@@ -15,7 +15,7 @@
     
     <StackLayout>
 
-        <Label Text="Go Up 'N' Down!" VerticalOptions="CenterAndExpand"
+        <Label Text="Up 'N' Down" VerticalOptions="CenterAndExpand"
                FontSize="Large" FontAttributes="Bold"
                HorizontalOptions="Center" />
         
